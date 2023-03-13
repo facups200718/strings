@@ -41,5 +41,17 @@ public class Main {
         var stringBuilder = new StringBuilder("Hello world");
         System.out.println(stringBuilder);
         //También tenemos los métodos append, insert, replace, y delete.
+
+        String stringMethodsTestString = "Hello world";
+        System.out.println(stringMethodsTestString.charAt(0));
+        System.out.println(stringMethodsTestString.length());
+        System.out.println(stringMethodsTestString.toUpperCase());
+        System.out.println(stringMethodsTestString.toLowerCase());
+        System.out.println(stringMethodsTestString.substring(6));
+        System.out.println(stringMethodsTestString.substring(0, 5));
+        System.out.println(stringMethodsTestString.trim());
+        System.out.println(stringMethodsTestString.indexOf('w'));
+        System.out.println(stringMethodsTestString.lastIndexOf('o'));
+        System.out.println(stringMethodsTestString.concat("! Today is a beautiful day to learn Java Strings."));
     }
 }
