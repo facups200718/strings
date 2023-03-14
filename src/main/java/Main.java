@@ -53,5 +53,21 @@ public class Main {
         System.out.println(stringMethodsTestString.indexOf('w'));
         System.out.println(stringMethodsTestString.lastIndexOf('o'));
         System.out.println(stringMethodsTestString.concat("! Today is a beautiful day to learn Java Strings."));
+
+        String str1 = "Hello";
+        String str2 = "my";
+        String str3 = "friends";
+        String str4 = String.join(" ", str1, str2, str3);
+        System.out.println(str4);
+        System.out.println(str4.toUpperCase().contains("IE"));
+        System.out.println(str4.replace("Hello", "Howdy"));
+        System.out.println(str4.equalsIgnoreCase("heLLo My FrIends"));
+
+        //Java escaping characters
+        System.out.println("She smiled and said \"hello!\"");
+        System.out.println("The file is in \n C:\\Documents\\Files");
+        System.out.println("Copyright \u00A9 2023");
+
+        //Java Formatter
     }
 }
